@@ -1,0 +1,5 @@
+<view class="container">
+  <text>{{info.content}}</text>
+  <text>{{info.createTime}}</text>
+  <text>发布者: {{info.userInfo.nickName}}</text>
+</view>

@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="info-list">
+    <block wx:for="{{infoList}}" wx:key="id">
+      <view class="info-item" bindtap="navigateToDetail" data-id="{{item._id}}">
+        <text>{{item.content}}</text>
+        <text>{{item.createTime | formatTime}}</text>
+      </view>
+    </block>
+  </view>
+  <button bindtap="navigateToPost">发布信息</button>
+</view>

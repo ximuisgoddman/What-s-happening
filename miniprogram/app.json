@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/post/post",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "实时沟通平台",
+    "navigationBarTextStyle": "black"
+  },
+  "cloud": true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于信息的精准推送"
+    }
+  }
+}
